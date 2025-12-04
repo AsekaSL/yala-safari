@@ -1,27 +1,8 @@
-import { useState } from 'react';
+
 import { motion, AnimatePresence } from 'framer-motion';
 import assests from '../assets/assests.js';
-import HeroSection from './HeroSection.jsx';
 
-// =========================================================================
-// 1. MAIN CONTAINER: Manages the state and transition
-// =========================================================================
-const ImmersiveWebsite = () => {
-  const [isExplored, setIsExplored] = useState(false);
 
-  return (
-    <div className="relative w-full min-h-screen overflow-hidden bg-white text-white">
-      
-      <AnimatePresence mode="wait">
-        {!isExplored && (
-          <AnimatedHeroSection key="hero" onExplore={() => setIsExplored(true)} />
-        )}
-      </AnimatePresence>
-
-      {isExplored && <HeroSection />}
-    </div>
-  );
-};
 
 // =========================================================================
 // 2. ANIMATED HERO SECTION: Layering, Entrance Animation, and Immersive Zoom Exit
@@ -197,4 +178,4 @@ const MainContent = () => {
   );
 };
 
-export default ImmersiveWebsite;
+export default AnimatedHeroSection;
