@@ -1,9 +1,10 @@
-import HeroSection from "../components/HeroSection.jsx"
+import ImmersiveWebsite from "../components/ImmersiveWebsite.jsx"
+//import HeroSection from "../components/HeroSection.jsx"
 
 function Home() {
     return(
         <div>
-            <HeroSection/>
+            <ImmersiveWebsite/>
         </div>
     )
 }
