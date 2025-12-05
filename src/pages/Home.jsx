@@ -3,6 +3,7 @@ import Nav from "../components/Nav.jsx";
 import Service from "../components/Home/Service.jsx";
 import Destination from "../components/Home/Destination.jsx";
 import ExploreDestination from "../components/Home/ExploreDestination.jsx";
+import ExploreConfidence from "../components/Home/ExploreConfidence.jsx";
 
 function Home() {
 
@@ -13,6 +14,7 @@ function Home() {
             <Service/>
             <Destination/>
             <ExploreDestination/>
+            <ExploreConfidence/>
         </div>
     );
 }

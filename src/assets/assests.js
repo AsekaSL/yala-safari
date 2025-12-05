@@ -11,6 +11,11 @@ import tiger from './images/tiger.png';
 import elephant from './images/elephant.png';
 import deer from './images/deer.png';
 import crocca from './images/crocca.png';
+import exploreImage from './images/04 1.png'
+import expertPlanning from './images/expert_planning.png';
+import exclusiveDeals from './images/exclusive_deals.png';
+import sustainable from './images/sustainable.png';
+import Support247 from './images/24_7_support.png';
 
 
 const assets = {
@@ -26,7 +31,12 @@ const assets = {
   tiger,
   elephant,
   deer,
-  crocca
+  crocca,
+  exploreImage,
+  expertPlanning,
+  exclusiveDeals,
+  sustainable,
+  Support247,
 };
 
 export default assets;
