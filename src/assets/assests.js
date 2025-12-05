@@ -21,6 +21,8 @@ import card1 from './images/card1.jpg';
 import card2 from './images/card2.jpg';
 import safariAdventuresCard1 from './images/safari_adventures_card1.jpg';
 import safariAdventuresCard2 from './images/safari_adventures_card2.jpg';
+import hotel from './images/hotel.png';
+import profileImg from './images/profileImg.jpg';
 
 
 const assets = {
@@ -47,6 +49,8 @@ const assets = {
   card2,
   safariAdventuresCard1,
   safariAdventuresCard2,
+  hotel,
+  profileImg
 };
 
 export default assets;

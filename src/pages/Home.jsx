@@ -7,6 +7,7 @@ import ExploreConfidence from "../components/Home/ExploreConfidence.jsx";
 import MomentsWildlife from "../components/Home/MomentsWildlife.jsx";
 import SafariPackages from "../components/Home/SafariPackages.jsx";
 import SafariAdventures from "../components/Home/SafariAdventures.jsx";
+import Comment from "../components/Home/Comment.jsx";
 
 function Home() {
 
@@ -21,6 +22,7 @@ function Home() {
             <MomentsWildlife/>
             <SafariPackages/>
             <SafariAdventures/>
+            <Comment/>
         </div>
     );
 }
