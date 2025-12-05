@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom"
 import Home from "./pages/Home.jsx"
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import AnimatedHeroSection from "./components/AnimatedHeroSection.jsx"
+import AnimatedHeroSection from "./components/Home/AnimatedHeroSection.jsx"
 
 function App() {
 

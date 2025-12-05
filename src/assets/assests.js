@@ -7,6 +7,10 @@ import transportation from './images/transportation.png';
 import diningRefreshment from './images/dining_refreshment.png';
 import Destination1 from './images/destination1.jpg';
 import Destination2 from './images/destination2.jpg';
+import tiger from './images/tiger.png';
+import elephant from './images/elephant.png';
+import deer from './images/deer.png';
+import crocca from './images/crocca.png';
 
 
 const assets = {
@@ -18,7 +22,11 @@ const assets = {
   transportation,
   diningRefreshment,
   Destination1,
-  Destination2
+  Destination2,
+  tiger,
+  elephant,
+  deer,
+  crocca
 };
 
 export default assets;
