@@ -5,7 +5,7 @@ import guidedSafariTours from './images/safari_8405516 1.png';
 import hotelAccommodation from './images/safari_8405517.png'
 import transportation from './images/transportation.png';
 import diningRefreshment from './images/dining_refreshment.png';
-import Destination1 from './images/destination1.jpg';
+import Destination1 from './images/Destination1.jpg';
 import Destination2 from './images/destination2.jpg';
 import tiger from './images/tiger.png';
 import elephant from './images/elephant.png';
