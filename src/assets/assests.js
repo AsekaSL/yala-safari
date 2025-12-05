@@ -26,6 +26,7 @@ import profileImg from './images/profileImg.jpg';
 import safariInspiractionCard1 from './images/safari_inspiration_card1.png';
 import safariInspiractionCard2 from './images/safari_inspiration_card2.png';
 import safariInspiractionCard3 from './images/safari_inspiration_card3.png';
+import footerImg from './images/footer-img.png';
 
 
 const assets = {
@@ -56,7 +57,8 @@ const assets = {
   profileImg,
   safariInspiractionCard1,
   safariInspiractionCard2,
-  safariInspiractionCard3
+  safariInspiractionCard3,
+  footerImg
 };
 
 export default assets;

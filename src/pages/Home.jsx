@@ -9,6 +9,7 @@ import SafariPackages from "../components/Home/SafariPackages.jsx";
 import SafariAdventures from "../components/Home/SafariAdventures.jsx";
 import Comment from "../components/Home/Comment.jsx";
 import SafariInspiraction from "../components/Home/SafariInspiraction.jsx";
+import Footer from "../components/Footer.jsx";
 
 function Home() {
 
@@ -25,6 +26,7 @@ function Home() {
             <SafariAdventures/>
             <Comment/>
             <SafariInspiraction/>
+            <Footer/>
         </div>
     );
 }
