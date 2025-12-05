@@ -1,6 +1,6 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
-import assests from '../assets/assests.js';
+import assests from '../../assets/assests.js';
 
 
 
