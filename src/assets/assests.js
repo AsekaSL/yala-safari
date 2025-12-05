@@ -17,6 +17,8 @@ import exclusiveDeals from './images/exclusive_deals.png';
 import sustainable from './images/sustainable.png';
 import Support247 from './images/24_7_support.png';
 import tiger2 from './images/tiger2.png';
+import card1 from './images/card1.jpg';
+import card2 from './images/card2.jpg';
 
 
 const assets = {
@@ -38,7 +40,9 @@ const assets = {
   exclusiveDeals,
   sustainable,
   Support247,
-  tiger2
+  tiger2,
+  card1,
+  card2
 };
 
 export default assets;

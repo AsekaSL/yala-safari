@@ -5,6 +5,7 @@ import Destination from "../components/Home/Destination.jsx";
 import ExploreDestination from "../components/Home/ExploreDestination.jsx";
 import ExploreConfidence from "../components/Home/ExploreConfidence.jsx";
 import MomentsWildlife from "../components/Home/MomentsWildlife.jsx";
+import SafariPackages from "../components/Home/SafariPackages.jsx";
 
 function Home() {
 
@@ -17,6 +18,7 @@ function Home() {
             <ExploreDestination/>
             <ExploreConfidence/>
             <MomentsWildlife/>
+            <SafariPackages/>
         </div>
     );
 }
