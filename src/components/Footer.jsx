@@ -73,7 +73,7 @@ const Footer = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="bg-white  px-6 md:px-8 py-3 md:py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300 text-sm md:text-base font-outfit"
+            className="bg-white text-black  px-6 md:px-8 py-3 md:py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300 text-sm md:text-base font-outfit"
           >
             Explore Safari Packages Now
           </motion.button>
