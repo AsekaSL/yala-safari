@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import assests from '../assets/assests';
+import assests from '../assets/assets';
 
 function HeroSection() {
     return (
