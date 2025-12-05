@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import assets from '../assets/assests';
+import assets from '../assets/assets';
 
 const Footer = () => {
   const [email, setEmail] = useState('');

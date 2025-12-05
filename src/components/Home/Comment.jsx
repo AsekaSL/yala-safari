@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import assets from '../../assets/assests';
+import assets from '../../assets/assets';
 
 const Comment = () => {
   const testimonial = {

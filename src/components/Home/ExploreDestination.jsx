@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import assests from '../../assets/assests';
+import assests from '../../assets/assets';
 
 const ExploreDestination = () => {
   const destinations = [
