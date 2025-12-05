@@ -19,6 +19,8 @@ import Support247 from './images/24_7_support.png';
 import tiger2 from './images/tiger2.png';
 import card1 from './images/card1.jpg';
 import card2 from './images/card2.jpg';
+import safariAdventuresCard1 from './images/safari_adventures_card1.jpg';
+import safariAdventuresCard2 from './images/safari_adventures_card2.jpg';
 
 
 const assets = {
@@ -42,7 +44,9 @@ const assets = {
   Support247,
   tiger2,
   card1,
-  card2
+  card2,
+  safariAdventuresCard1,
+  safariAdventuresCard2,
 };
 
 export default assets;
