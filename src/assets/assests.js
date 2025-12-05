@@ -23,6 +23,9 @@ import safariAdventuresCard1 from './images/safari_adventures_card1.jpg';
 import safariAdventuresCard2 from './images/safari_adventures_card2.jpg';
 import hotel from './images/hotel.png';
 import profileImg from './images/profileImg.jpg';
+import safariInspiractionCard1 from './images/safari_inspiration_card1.png';
+import safariInspiractionCard2 from './images/safari_inspiration_card2.png';
+import safariInspiractionCard3 from './images/safari_inspiration_card3.png';
 
 
 const assets = {
@@ -50,7 +53,10 @@ const assets = {
   safariAdventuresCard1,
   safariAdventuresCard2,
   hotel,
-  profileImg
+  profileImg,
+  safariInspiractionCard1,
+  safariInspiractionCard2,
+  safariInspiractionCard3
 };
 
 export default assets;
