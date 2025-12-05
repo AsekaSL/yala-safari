@@ -112,68 +112,12 @@ const AnimatedHeroSection = ({ onExplore }) => {
           onClick={onExplore}
           whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.3)" }}
           whileTap={{ scale: 0.95 }}
-          className="px-10 py-4 border-2 border-white/50 rounded-full text-xl uppercase tracking-[0.2em] font-bold backdrop-blur-md bg-white/10 shadow-[0_0_30px_rgba(0,0,0,0.3)] hover:bg-white/20 hover:border-white transition-all duration-300"
+          className="px-10 py-4 border-2 text-white border-white/50 rounded-full text-xl uppercase tracking-[0.2em] font-bold backdrop-blur-md bg-white/10 shadow-[0_0_30px_rgba(0,0,0,0.3)] hover:bg-white/20 hover:border-white transition-all duration-300"
         >
           Start Safari
         </motion.button>
       </motion.div>
 
-    </motion.div>
-  );
-};
-
-
-// =========================================================================
-// 3. MAIN CONTENT: Appears after the Hero transition finishes
-// =========================================================================
-const MainContent = () => {
-  return (
-    <motion.div 
-      initial={{ opacity: 0, y: 50 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 1, delay: 0.2 }}
-      className="min-h-screen bg-slate-950 text-slate-200 relative z-50"
-    >
-      <nav className="p-6 flex justify-between items-center bg-slate-900/80 backdrop-blur-md sticky top-0 z-50 border-b border-white/10">
-        <h2 className="text-2xl font-black tracking-tighter text-white">ALPINIST</h2>
-        <div className="hidden md:flex gap-8 text-sm font-bold uppercase tracking-widest">
-          <button className="hover:text-white transition-colors">Expeditions</button>
-          <button className="hover:text-white transition-colors">Gallery</button>
-          <button className="hover:text-white transition-colors">About Us</button>
-        </div>
-      </nav>
-
-      <div className="max-w-5xl mx-auto p-8 md:p-20 space-y-16">
-        <section className="space-y-6">
-          <motion.h2 
-             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.8 }}
-             className="text-5xl md:text-7xl font-bold text-white tracking-tight"
-          >
-            Beyond the Horizon.
-          </motion.h2>
-          <motion.p 
-             initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1 }}
-             className="text-xl md:text-2xl leading-relaxed text-slate-400 max-w-3xl"
-          >
-            Welcome to the immersive experience. The transition is complete. 
-            You are now viewing the main website content. 
-          </motion.p>
-        </section>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <motion.div initial={{opacity:0, scale:0.9}} whileInView={{opacity:1, scale:1}} viewport={{once:true}} className="aspect-[4/3] bg-slate-800 rounded-3xl border border-white/10 relative overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
-                <div className="absolute bottom-8 left-8">
-                    <h3 className="text-3xl font-bold text-white">Base Camp</h3>
-                </div>
-            </motion.div>
-             <motion.div initial={{opacity:0, scale:0.9}} whileInView={{opacity:1, scale:1}} viewport={{once:true}} transition={{delay:0.2}} className="aspect-[4/3] bg-slate-800 rounded-3xl border border-white/10 relative overflow-hidden group">
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
-                <div className="absolute bottom-8 left-8">
-                    <h3 className="text-3xl font-bold text-white">The Summit</h3>
-                </div>
-            </motion.div>
-        </div>
-      </div>
     </motion.div>
   );
 };
